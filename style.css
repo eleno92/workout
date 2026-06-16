@@ -26,12 +26,12 @@ body {
     padding-left: 10px;
 }
 li{
-    font-size: 25px;
+    font-size: 20px;
 }
 h2{
     color: #161615;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 25px;
 }
 img{
     width: 200px;
@@ -41,6 +41,7 @@ img{
 }
 ol, ul{
     font-weight: bold;
+    padding-left: 25px;
 
 }
 ol{
