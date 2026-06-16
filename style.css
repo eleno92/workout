@@ -40,9 +40,10 @@ img{
 }
 ol, ul{
     font-weight: bold;
-    padding-left: auto;
+    padding-left: 25px;
 
 }
 ol{
     text-decoration: underline;
+    padding-left: 80px;
 }
