@@ -40,7 +40,7 @@ img{
 }
 ol, ul{
     font-weight: bold;
-    padding-left: 35px;
+    padding-left: auto;
 
 }
 ol{
