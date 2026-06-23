@@ -1,45 +1,141 @@
-nav {
-    background-color: #494949;
-    height: auto;
+button {
+    height: 200px;
+    width: 250px;
     border-radius: 5px;
-    border-style: dotted;
-    border-color: #313131;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(128, 128, 128, 0.184);
 }
 a {
-    padding-right: 20px;
-    padding-left: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 34px;
-    text-align: center;
-}
-#top{
-    padding-top:20px;
-}
-h1 {
-    color: black;
-    font-size: 45px;
 }
 body {
-    background-color: #626262;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    margin: 10px;
+    color:white;
 }
-li{
-    font-size: 20px;
+#main{
+    padding: 20px;
 }
-h2{
-    color: #161615;
-    text-decoration: underline;
-    font-size: 25px;
-}
-img{
-    width: 200px;
-    height: 160px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-ul{
+.home-button{
+    display: inline-block;
+    background-color: #374151;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    margin:1px;
     font-weight: bold;
-    padding-left: 25px;
+    transition: 0.3s;
+}
 
+.home-button:hover{
+    background-color: #4B5563;
+    transform: translateY(-3px);
+}
+#glutes {
+    background-color: #BE185D;
+    border-color: #EC4899;
+    box-shadow: 0px 10px 25px rgba(236,72,153,0.5);
+}
+#back {
+    background-color: #1D4ED8;
+    border-color: #3B82F6;
+    box-shadow: 0px 10px 25px rgba(59,130,246,0.5);
+}
+#full_body {
+    background-color: #059669;
+    border-color: #10B981;
+    box-shadow: 0px 10px 25px rgba(16,185,129,0.5);
+}
+#recovery {
+    background-color: #6B7280;
+    border-color: #9CA3AF;
+    box-shadow: 0px 10px 25px rgba(156,163,175,0.5);
+}
+#glutes_core {
+    background-color: #7C3AED;
+    border-color: #A78BFA;
+    box-shadow: 0px 10px 25px rgba(167,139,250,0.5);
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    accent-color: #EC4899;
+}
+#warm_up_card{
+    background-color: #1E1E1E;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+}
+#header_card{
+    padding: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+#header{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+details{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+summary{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.exercise{
+    background-color: rgba(255,255,255,0.1);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.exercise-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#warm_up_card{
+    background-color: #F59E0B;
+}
+#dumbbells_card{
+    background-color: #2563EB;
+    padding: 20px;
+}
+#machine_card{
+    background-color: #059669;
+    padding: 20px;
+}
+
+#cardio{
+    background-color: #DC2626;
+    padding: 20px;
+}
+#stretching{
+    background-color: #7C3AED;
+    padding: 20px;
+}
+#sauna{
+    background-color: #EA580C;
+    padding: 20px;
+}
+#core_card{
+    background-color: #DE3163;
+    padding: 20px;
+}
+span{
+    font-size: 20px;
 }
