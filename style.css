@@ -143,8 +143,17 @@ summary{
     padding: 30px;
 }
 button p{
-    font-size: 35px;
+    font-size: 28px;
 }
 h1{
     font-size: 80px;
+}
+.exercise-label span{
+    transition: all 0.3s ease;
+}
+
+input[type="checkbox"]:checked + span{
+    text-decoration: line-through;
+    color: #d1d5db;
+    opacity: 0.7;
 }
