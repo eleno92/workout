@@ -143,5 +143,8 @@ summary{
     padding: 30px;
 }
 p{
-    font-size: 25px;
+    font-size: 35px;
+}
+#top{
+    font-size: 150px;
 }
