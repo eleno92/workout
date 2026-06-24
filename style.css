@@ -86,8 +86,8 @@ input[type="checkbox"]{
 }
 #header{
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 40px;
+    font-size: 60px;
+    margin: 20px 0;
 }
 details{
     width: 80%;
@@ -142,9 +142,9 @@ summary{
     background-color: #DE3163;
     padding: 30px;
 }
-p{
-    font-size: 35px;
+button p{
+    font-size: 22px;
 }
-h2{
-    font-size: 250px;
+h1{
+    font-size: 100px;
 }
