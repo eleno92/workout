@@ -79,9 +79,9 @@ input[type="checkbox"]{
     box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
 }
 #header_card{
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
-    font-size: 120px;
+    font-size: 40px;
     font-weight: bold;
 }
 #header{
@@ -146,5 +146,5 @@ p{
     font-size: 50px;
 }
 #top{
-    font-size: 400px;
+    font-size: 1000px;
 }
